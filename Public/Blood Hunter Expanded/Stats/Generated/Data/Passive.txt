@@ -1,0 +1,52 @@
+// Bloodhunter Class Features //
+
+new entry "Passive_Example"
+type "PassiveData"
+data "DisplayName" "" // from .loca file //
+data "Description" "" // from .loca file //
+data "Boosts" "UnlockSpell(Spell_Example)" // what does the passive give //
+
+
+new entry "Great_Old_Ones"
+type "PassiveData"
+data "DisplayName" "h92dc4da9gf353g4baegbae1ge71394d69275"
+data "Description" "heabafd41g22dcg4cb6g82c6g89fdf8030409"
+
+new entry "Great_Old_Ones_Rite"
+type "PassiveData"
+data "DisplayName" "hff4a8cf6g77feg403dgbdddg0d207660d5e8"
+data "Description" "hca47f128g1d44g46c7g9b2bg1fe3ad4761d6"
+data "Conditions" "IsCritical()"
+data "StatsFunctors" "ApplyStatus(OBSERVER_OBSERVER, FRIGHTENED,1,1)"
+data "StatsFunctorContext" "OnDamage"
+
+new entry "Great_Old_Ones_Revealed"
+type "PassiveData"
+data "DisplayName" "hdecd76feg3b78g4f4ag91a8g113f5b03fbb8"
+data "Description" "ha10be3d7g817bg4683g8304g4d3b107742e5"
+data "Boosts" "UnlockSpell(Shout_DetectThoughts);UnlockSpell(Shout_DetectThoughts_Daily);"
+
+new entry "ImprovedWarMagic"
+type "PassiveData"
+data "DisplayName" "h1e5f0864f08844d1a0246eca13c199c7dfce"
+data "Description" "h8432f553139941acacbb6f0c58e36a26425b"
+data "Icon" "PassiveFeature_WarMagic"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnCast;OnStatusRemoved"
+data "Conditions" "(not context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and IsSpell() and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source)) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_WAR_MAGIC_TECHNICAL') and TurnBased()) and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source)"
+data "StatsFunctors" "IF(HasAnyExtraAttack(context.Source) and not context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(SELF,EXTRA_ATTACK_WAR_MAGIC_Q,100,1);IF(not HasAnyExtraAttack(context.Source) and not context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(SELF,EXTRA_ATTACK_WAR_MAGIC,100,1);IF(HasAnyExtraAttack(context.Target) and context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(EXTRA_ATTACK_WAR_MAGIC_Q,100,1);IF(not HasAnyExtraAttack(context.Target) and context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(EXTRA_ATTACK_WAR_MAGIC,100,1)"
+
+new entry "Hardened_Soul"
+type "PassiveData"
+data "DisplayName" "hb56e10788bbf4426a0efb802ef4b9763e229"
+data "Description" "h66a0b78d966640a08a64f7d67e61fc7ccgg5"
+data "Icon" "Action_Bard_Countercharm"
+data "Boosts" "Tag(CHARMED_ADV);Tag(FRIGHTENED_ADV)"
+
+new entry "Unlock_Haste"
+type "PassiveData"
+data "DisplayName" "h54824ff5b0b94187894160fd5d8f5478c4g9"
+data "Description" "hfce2b19cef9c46e68615ed4c5b78339dda13"
+data "Boosts" "UnlockSpell(Target_Haste);UnlockSpell(Target_Daily_Haste);"
+
+// Check Modifiers for additional things for what you can do with Passives //
