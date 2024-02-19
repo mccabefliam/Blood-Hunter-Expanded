@@ -18,10 +18,10 @@
                     <attribute id="Level7" type="LSString" value="1d6"/>
                     <attribute id="Level8" type="LSString" value="1d6"/>
                     <attribute id="Level9" type="LSString" value="1d6"/>
-                    <attribute id="Level13" type="LSString" value="1d6"/>
-                    <attribute id="Level14" type="LSString" value="1d6"/>
-                    <attribute id="Level15" type="LSString" value="1d6"/>
-                    <attribute id="Level16" type="LSString" value="1d6"/>
+                    <attribute id="Level13" type="LSString" value="1d8"/>
+                    <attribute id="Level14" type="LSString" value="1d8"/>
+                    <attribute id="Level15" type="LSString" value="1d8"/>
+                    <attribute id="Level16" type="LSString" value="1d8"/>
                     <attribute id="Level17" type="LSString" value="1d10"/>
                     <attribute id="Level18" type="LSString" value="1d10"/>
                     <attribute id="Level19" type="LSString" value="1d10"/>
@@ -45,10 +45,10 @@
                     <attribute id="Level7" type="LSString" value="1d6"/>
                     <attribute id="Level8" type="LSString" value="1d6"/>
                     <attribute id="Level9" type="LSString" value="1d6"/>
-                    <attribute id="Level13" type="LSString" value="1d6"/>
-                    <attribute id="Level14" type="LSString" value="1d6"/>
-                    <attribute id="Level15" type="LSString" value="1d6"/>
-                    <attribute id="Level16" type="LSString" value="1d6"/>
+                    <attribute id="Level13" type="LSString" value="1d8"/>
+                    <attribute id="Level14" type="LSString" value="1d8"/>
+                    <attribute id="Level15" type="LSString" value="1d8"/>
+                    <attribute id="Level16" type="LSString" value="1d8"/>
                     <attribute id="Level17" type="LSString" value="1d10"/>
                     <attribute id="Level18" type="LSString" value="1d10"/>
                     <attribute id="Level19" type="LSString" value="1d10"/>
@@ -70,10 +70,10 @@
                     <attribute id="Level7" type="LSString" value="1d6"/>
                     <attribute id="Level8" type="LSString" value="1d6"/>
                     <attribute id="Level9" type="LSString" value="1d6"/>
-                    <attribute id="Level13" type="LSString" value="1d6"/>
-                    <attribute id="Level14" type="LSString" value="1d6"/>
-                    <attribute id="Level15" type="LSString" value="1d6"/>
-                    <attribute id="Level16" type="LSString" value="1d6"/>
+                    <attribute id="Level13" type="LSString" value="1d8"/>
+                    <attribute id="Level14" type="LSString" value="1d8"/>
+                    <attribute id="Level15" type="LSString" value="1d8"/>
+                    <attribute id="Level16" type="LSString" value="1d8"/>
                     <attribute id="Level17" type="LSString" value="1d10"/>
                     <attribute id="Level18" type="LSString" value="1d10"/>
                     <attribute id="Level19" type="LSString" value="1d10"/>

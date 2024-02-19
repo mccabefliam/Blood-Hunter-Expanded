@@ -42,6 +42,7 @@
                     <attribute id="Level" type="uint8" value="14"/>
                     <attribute id="Name" type="LSString" value="BloodHunter"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
+					<attribute id="Selectors" type="LSString" value="SelectSpells(a8f7f76a-7810-459d-bf78-3c5219699ec6,1,1,BloodCurses);" />
 					<attribute id="PassivesAdded" type="LSString" value="Hardened_Soul" />
                     <attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/>
                     <attribute id="UUID" type="guid" value="e510654d-8ffb-4f04-9b1b-fa4b54d40374"/>
@@ -75,6 +76,7 @@
 					<attribute id="Level" type="uint8" value="18"/>
 					<attribute id="Name" type="LSString" value="BloodHunter"/>
 					<attribute id="ProgressionType" type="uint8" value="0"/>
+					<attribute id="Selectors" type="LSString" value="SelectSpells(a8f7f76a-7810-459d-bf78-3c5219699ec6,1,1,BloodCurses);" />
 					<attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/>
 					<attribute id="UUID" type="guid" value="02533c9d-0a74-4dba-ba94-7a5e4307ac92"/>
 				</node>
